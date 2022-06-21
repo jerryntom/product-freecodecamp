@@ -4,10 +4,159 @@
         <title>Vipla internet</title>
         <meta charset = "utf-8">
         <meta name = "description" content = "Vipla - the internet provider with 
-        the globally fastest internet for residential customers">
+        globally the fastest internet for residential customers">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <meta name = "keywords" content = "HTML, CSS, JavaScript, jerryntom, github, 
+        web development, web developer, programming, IT, websites">
         <link rel = "stylesheet" href = "style.css">
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel = "stylesheet">
+        <link rel = "icon" type = "image/x-icon" href="resources/images/favicon.png">
+        <script src = "header-scroll.js"></script>
     </head>
     <body> 
-        <h1>Vipla - there's no limits for us</h1>
+        <div id = "container">
+            <header id = "header">
+                <img id = "header-img" src = "resources/images/header-logo.png" alt = "vipla internet logo">
+                <nav id = "nav-bar">
+                    <a class = "nav-link" href = "#about-us">About us</a>
+                    <a class = "nav-link" href = "#technology">Technology</a>
+                    <a class = "nav-link" href = "#pricing">Pricing</a>
+                    <a class = "nav-link" href = "#contact">Contact</a>
+                </nav>
+            </header>
+            <div id = "about-us">
+                <h1 class = "content-header">About us</h1>
+                <div class = "section-content">
+                    <p class = "content-text">
+                    We are providing the fastest internet for 20 years.
+                    Our customers from the entire world appreciate high quality 
+                    of services. That's why we are. Constantly we are working on 
+                    exceeding the limit of nowadays' technologies to make the world 
+                    a better place. Technology made by us is being used everywhere.
+                    We have been trusted by many companies and household. Can we 
+                    earn your trust? See for yourself by contacting us and enjoy the
+                    fastest internet in the world.
+                    </p>    
+                    <img class = "content-img" src = "resources/images/about-img.png" 
+                    alt = "two persons surfing on the internet"> 
+                </div>           
+            <div id = "technology">
+                <h1 class = "content-header">Technology</h1>
+                <div class = "section-content">
+                    <iframe id = "video" width="560" height="340" 
+                    src="https://www.youtube.com/embed/G1Ke-H8I1uk"  title="How our technology works?" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class = "content-text">
+                        In Vipla we know that world changes quickly and that's why there's 
+                        need for the newest technologies. Research team looks for various 
+                        solutions to make our technology unrivalled. We are proud of many awards 
+                        that we have received by the largest technology organizations, i.e. W3C,
+                        IETF, IRTF, ITU and even NASA. As Vipla we see our mission as life-changing.
+                        Better and faster transfer of data means more possibilities. In this situation
+                        there's no limits for us. There's no and won't be way to say that we have what 
+                        can be called 'perfect'. That's why change is an only constant.
+                    </p>
+                </div>
+            </div>
+            <div id = "pricing">
+                <h1 class = "content-header">Pricing</h1>
+                <div id = "pricing-content">
+                    <div class = "pricing-offer">
+                        <h4 class = "pricing-header">Starter</h4>
+                        <div class = "pricing-detail">
+                            <img id = "speed-starter" src = "resources/images/speed-icon-pricing.png" 
+                            alt = "speed starter icon">
+                            <label for = "speed-starter">up to 30 Gb/s</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "transfer-starter" src = "resources/images/transfer-icon-pricing.png" 
+                            alt = "transfer starter icon">
+                            <label for = "transfer-starter">10TB monthly</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "period-starter" src = "resources/images/period-icon-pricing.png" 
+                            alt = "period starter icon">
+                            <label for = "period-starter">24 months</label>
+                        </div>
+                        <p class = "offer-cost">50$ monthly</p>
+                    </div>
+                    <div class = "pricing-offer">
+                        <h4 class = "pricing-header">Explorer</h4>
+                        <div class = "pricing-detail">
+                            <img id = "speed-explorer" src = "resources/images/speed-icon-pricing.png" 
+                            alt = "speed explorer icon">
+                            <label for = "speed-explorer">up to 60 Gb/s</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "transfer-explorer" src = "resources/images/transfer-icon-pricing.png" 
+                            alt = "transfer explorer icon">
+                            <label for = "transfer-explorer">40TB monthly</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "period-explorer" src = "resources/images/period-icon-pricing.png" 
+                            alt = "period explorer icon">
+                            <label for = "period-explorer">24 months</label>
+                        </div>
+                        <p class = "offer-cost">100$ monthly</p>
+                    </div>
+                    <div class = "pricing-offer">
+                        <h4 class = "pricing-header">Surfer</h4>
+                        <div class = "pricing-detail">
+                            <img id = "speed-surfer" src = "resources/images/speed-icon-pricing.png" 
+                            alt = "speed surfer icon">
+                            <label for = "speed-surfer">up to 90 Gb/s</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "transfer-surfer" src = "resources/images/transfer-icon-pricing.png" 
+                            alt = "transfer surfer icon">
+                            <label for = "transfer-surfer">100TB monthly</label>
+                        </div>
+                        <div class = "pricing-detail">
+                            <img id = "period-surfer" src = "resources/images/period-icon-pricing.png"  
+                            alt = "period surfer icon">
+                            <label for = "period-surfer">24 months</label>
+                        </div>
+                        <p class = "offer-cost">200$ monthly</p>
+                    </div>
+                </div>
+            </div>
+            <div id = "contact">
+                <h1 class = "content-header">Contact</h1>
+                <form id = "form" action = "https://www.freecodecamp.com/email-submit">
+                    <input id = "first-name-contact" name = "first-name" type = "text" placeholder = "First name" required><br>
+                    <input id = "surname-contact" name = "surname" type = "text" placeholder = "Surname" required><br>
+                    <input id = "email" name = "email" type = "email" placeholder = "Email" required><br>
+                    <input id = "telephone-number" name = "telephone-number" type = "text" placeholder = "Telephone" required><br>
+                    <label for = "client-type">Client type</label>
+                    <select id = "client-type">
+                        <option id = "household" name = "household" value = "household">Household</option>
+                        <option id = "business" name = "business" value = "business">Business</option>
+                        <option id = "collaboration" name = "collaboration" value = "collaboration">Collaboration</option>
+                        <option id = "n/a" name = "n/a" value = "n/a" selected = "selected">N/A</option>
+                    </select><br>
+                    <label for = "offer-type">Offer type</label>
+                    <select id = "offer-type">
+                        <option id = "starter" name = "starter" value = "starter">Starter</option>
+                        <option id = "explorer" name = "explorer" value = "explorer">Explorer</option>
+                        <option id = "surfer" name = "surfer" value = "surfer">Surfer</option>
+                        <option id = "n/a" name = "n/a" value = "n/a" selected = "selected">N/A</option>
+                    </select><br>
+                    <label for = "data-agreement">
+                        Do you agree to the processing of your data?
+                    </label>
+                    <input id = "data-agreement" name = "data-agreement" type = "checkbox" required><br> 
+                    <input id = "submit" name = "send-button" type = "submit" value = "Send">
+                </form>
+            </div>
+            <footer id = "footer">
+                <p>&copy 2022 Vipla internet - jerryntom | 
+                    <a class = "footer-link" href = "https://github.com/jerryntom" target = "_blank">github</a> | 
+                    <a class = "footer-link" href = "https://jerryntom.github.io/" target = "_blank">github.io</a> | 
+                    <a class = "footer-link" href = "https://www.linkedin.com/in/jerryntom/" target = "_blank">linkedin</a></p>
+            </footer>
+        </div>
     </body>
 </html>
