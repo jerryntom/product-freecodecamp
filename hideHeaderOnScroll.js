@@ -1,7 +1,7 @@
 var prevScrollpos = window.pageYOffset;
 var headerHeight = "-120px";
 
-if (screen.width <= "480") {
+if (screen.width <= "600") {
 	headerHeight = "-210px";
 }
 
