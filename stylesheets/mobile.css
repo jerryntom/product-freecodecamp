@@ -54,20 +54,27 @@ body {
     clear: both;
 }
 
-.section-content {
+.section-content, .pricing-detail {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#pricing {
-    text-align: center;
-    font-weight: 400;
-}
-
 .section-content {
     display: inline;
     align-items: center;
+}
+
+#pricing-content {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#pricing {
+    text-align: center;
+    font-weight: 400;
 }
 
 .pricing-header {
@@ -80,7 +87,6 @@ body {
     border: 1px solid black;
     margin: 20px;
     padding: 0px 10px 10px 10px;
-    max-height: 500px;
     -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
     -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
     box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
@@ -89,6 +95,7 @@ body {
 .pricing-offer img {
     margin-bottom: 10px;
 }
+
 
 .pricing-offer label {
     margin: 0px 10px 0px 10px;
