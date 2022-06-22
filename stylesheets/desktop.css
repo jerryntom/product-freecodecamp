@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+}
+
+#container {
+    background-color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1024px;
+}    
+
+#header-div {
+    margin-top: 0px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    transition: top 1s;
+    z-index: 1;
+}
+
+#header-img {
+    margin: 10px;
+}
+
+#nav-bar {
+    float: right;
+    color: black;
+    margin: 50px;
+    font-size: 34px;
+}
+
+.nav-link {
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: grey;
+}
+
+.nav-link:active {
+    color: #386bff;
+}
+
+#about-us, #technology, 
+#pricing {
+    font-size: 25px;
+    clear: both;
+}
+
+.section-content {
+    margin: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pricing {
+    text-align: center;
+    font-weight: 400;
+}
+
+#pricing-content, .pricing-detail,
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-header {
+    margin: 10px;
+}
+
+.pricing-offer {
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 0px 10px 10px 10px;
+    max-height: 500px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.pricing-offer img {
+    margin-bottom: 10px;
+}
+
+.pricing-offer label {
+    margin: 0px 10px 0px 10px;
+}
+
+.offer-cost {
+    display: inline-block;
+    margin: 10px 0px 10px 0px;
+}
+
+.content-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+.content-text {
+    margin: 20px;
+    max-width: 800px;
+    font-weight: 400;
+}
+
+#technology .content-text {
+    margin: 40px 20px 20px 80px;
+}
+
+.content-img {
+    filter: drop-shadow(5px 5px 10px #000);
+}
+
+#video {
+    float: left;
+    margin: 20px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+#about-us .content-text, #technology #video {
+    float: left;
+}
+
+#contact {
+    text-align: center;
+    clear: both;
+    font-size: 30px;
+}
+
+#contact input, #contact select {
+    border-radius: 4px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+#contact input:hover, #contact select:hover,
+#send-button:hover, #contact input:focus, 
+#contact select:focus, #send-button:focus {
+    font-size: 35px;
+    transition: font-size 0.5s;
+}
+
+#contact input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#contact::-webkit-input-placeholder {
+    text-align: center;
+    color: black;
+}
+
+#contact input[type = "checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: black;
+}
+
+#contact input[type = "checkbox"]:focus,
+#contact input[type = "checkbox"]:hover {
+    width: 25px;
+    height: 25px;
+    transition: width 0.3s, height 0.3s;
+}
+
+#submit {
+    height: auto;
+    width: 200px;
+}
+
+#footer {
+    display: inline-block;
+    font-size: 15px;
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.footer-link {
+    color: #386bff;
+}
+
+.footer-link:hover {
+    color: #829be4
+}
+
+.footer-link:active {
+    color: black;
+}

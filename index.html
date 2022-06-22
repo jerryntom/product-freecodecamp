@@ -8,17 +8,18 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <meta name = "keywords" content = "HTML, CSS, JavaScript, jerryntom, github, 
         web development, web developer, programming, IT, websites">
-        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" media = "screen and (min-device-width: 1024px)" 
+        href = "stylesheets/desktop.css">
+        <link rel = "stylesheet" media = "screen and (max-device-width: 480px)
+        and (orientation: portrait)" href = "stylesheets/mobile.css">
         <link rel = "preconnect" href = "https://fonts.googleapis.com">
         <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
         <link href = "https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel = "stylesheet">
         <link rel = "icon" type = "image/x-icon" href="resources/images/favicon.png">
-        <script src = "hideHeaderOnScroll.js"></script>
-        <script src = "mobileView.js"></script>
     </head>
     <body> 
         <div id = "container">
-            <header id = "header">
+            <header id = "header-div">
                 <img id = "header-img" src = "resources/images/header-logo.png" alt = "vipla internet logo">
                 <nav id = "nav-bar">
                     <a class = "nav-link" href = "#about-us">About us</a>
@@ -27,6 +28,7 @@
                     <a class = "nav-link" href = "#contact">Contact</a>
                 </nav>
             </header>
+            <script src = "hideHeaderOnScroll.js"></script>            
             <div id = "about-us">
                 <h1 class = "content-header">About us</h1>
                 <div class = "section-content">
